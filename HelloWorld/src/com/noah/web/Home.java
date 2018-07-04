@@ -45,7 +45,7 @@ public class Home extends HttpServlet {
 		if(hometown == null)
 			hometown = "unknown";
 		
-		out.write("<h1>Hello," + fname + " " + lname + "</h1>" );
+		out.write("<h1>Hello, " + fname + " " + lname + "</h1>" );
 		out.write("<h3>Your favorite language is " + lang + "</h3>");
 		out.write("<h3>Your hometown is " + hometown + "</h3>");
 	}
