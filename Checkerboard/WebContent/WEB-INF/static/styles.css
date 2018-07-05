@@ -1,0 +1,11 @@
+.blackBox, .whiteBox{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.blackBox{
+    background-color: black;
+}
+h1{
+    color: red;
+}
